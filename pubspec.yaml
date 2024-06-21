@@ -1,0 +1,41 @@
+name: slash_test2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.4
+  carousel_slider: ^4.2.1
+  device_preview: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  persistent_bottom_nav_bar_v2: ^5.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/images/BestSeller/
+    - assets/images/NewArrival/
+    - assets/images/recommended/
+    
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets\fonts\Urbanist-Regular.ttf
+        - asset: assets\fonts\Urbanist-Medium.ttf
+        - asset: assets\fonts\Urbanist-Bold.ttf
+    
